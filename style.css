@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'base', monospace;
+}
+
+@font-face {
+    font-family: 'base';
+    src: url(./font/Comfortaa-VariableFont_wght.ttf);
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img {
+        width: 90vw;
+        border-radius: 20px;
+    }
+
+    #photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 7vh;
+    }
+
+    #titleGroup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        gap: 10px;
+        font-size: 4vw;
+    }
+
+    #inputName {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 7vh;
+    }
+
+    #name {
+        width: 80vw;
+        height: 5vh;
+        font-size: 5vw;
+        border-radius: 10px;
+    }
+
+    #ok {
+        font-size: 5vw;
+        padding: 2vh 2vw 2vh 2vw;
+        background-color: whitesmoke;
+        border-radius: 10px;
+
+    }
+
+    #button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+    }
+
+    #pozd {
+        font-size: 5.8vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 9vh;
+    }
+}
